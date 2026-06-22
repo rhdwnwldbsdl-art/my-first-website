@@ -1,31 +1,29 @@
-# 의존성 패키지
-node_modules/
-.npm
+# MCP 설정 파일
+.mcp.json
 
-# 빌드 결과물
-dist/
-build/
+# Claude 로컬 설정
+.claude/
+
+# Node.js 관련
+node_modules/
+package-lock.json
+
+# 캐시 파일
+.cache/
 .vite/
+dist/
 
 # 환경 변수
 .env
 .env.local
 .env.*.local
 
-# 에디터 설정
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS 파일
+# OS/IDE 파일
 .DS_Store
 Thumbs.db
-desktop.ini
+.vscode/
+.idea/
 
-# 로그
+# 로그 파일
 *.log
 npm-debug.log*
-
-# Claude Code 로컬 설정
-.claude/settings.local.json
